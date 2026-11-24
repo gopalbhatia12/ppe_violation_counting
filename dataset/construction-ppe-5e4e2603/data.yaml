@@ -1,0 +1,25 @@
+task: detect
+name: Construction PPE
+description: "Ultralytics Construction-PPE is an original dataset created and open-sourced in November 2026 by the Ultralytics team. It combines human-collected and generated images, with expert human annotation and AI auto-annotation completed in November 2026 by the Ultralytics team. It contains 1,000 images (800 train, 200 validation), 12 classes, and 14,863 reviewed bounding boxes for people, forklifts, protective equipment, and visible missing PPE. Images and annotations are released under CC BY 4.0. Documentation: https://docs.ultralytics.com/datasets/detect/construction-ppe."
+bytes: 663055709
+url: https://platform.ultralytics.com/ultralytics/datasets/construction-ppe
+version: latest
+created_at: "2026-11-02T23:32:57.051Z"
+updated_at: "2026-11-03T11:31:43.365Z"
+names:
+  0: helmet
+  1: gloves
+  2: vest
+  3: boots
+  4: goggles
+  5: Person
+  6: no_helmet
+  7: no_goggle
+  8: no_gloves
+  9: no_boots
+  10: forklift
+  11: no_vest
+train: images/train
+val: images/val
+hash: "5e4e2603"
+complete: true
